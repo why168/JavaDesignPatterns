@@ -15,10 +15,12 @@ public class FoodOrder {
 
     public FoodOrder(AbsFactory mFactory, String name) {
         this.name = name;
+        this.mFactory = mFactory;
+
         setFactory(mFactory);
     }
 
-    public AbsFactory getmFactory() {
+    public AbsFactory getFactory() {
         return mFactory;
     }
 

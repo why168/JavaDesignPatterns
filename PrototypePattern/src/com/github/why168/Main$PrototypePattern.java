@@ -20,7 +20,7 @@ import com.github.why168.shallowCopy.ShallStudent;
  * @version 2016/12/21 00:04
  * @since JDK1.8
  */
-public class Main {
+public class Main$PrototypePattern {
     public static void main(String[] args) throws Exception {
 //        shallowCopy();
         deepCopy();
@@ -37,20 +37,25 @@ public class Main {
             stu.setName("Edwin");
 
             //克隆
-            ShallStudent cloneStu = (ShallStudent) stu.clone();
+            ShallStudent cloneStu = stu.clone();
 
-            //赋值
-            ShallStudent attachStu = stu;
 
             System.out.println("stu---> hashCode = " + stu.hashCode());
-            System.out.println("cloneStu---> hashCode = " + cloneStu.hashCode());
-            System.out.println("attachStu---> hashCode = " + attachStu.hashCode());
-
-            System.out.println("\n***************************************************\n");
+            System.out.print("cloneStu---> hashCode = " + cloneStu.hashCode());
+            System.out.print("\n***************************************************\n");
 
             System.out.println("stu---> value = " + stu.toString());
-            System.out.println("cloneStu---> value = " + cloneStu.toString());
-            System.out.println("attachStu---> value = " + attachStu.toString());
+            System.out.print("cloneStu---> value = " + cloneStu.toString());
+            System.out.print("\n***************************************************\n");
+
+            System.out.println("cloneStu == stu -> " + (cloneStu == stu));
+            System.out.print("\n赋值操作 \n");
+
+            stu.setAge(25);
+            stu.setId(2);
+            System.out.println("stu---> value = " + stu.toString());
+            System.out.print("cloneStu---> value = " + cloneStu.toString());
+
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
@@ -76,12 +81,8 @@ public class Main {
             //克隆2
             DeepStudent cloneStu = (DeepStudent) stu.clone();
 
-            //赋值
-            DeepStudent attachStu = stu;
-
             System.out.println("stu---> hashCode = " + stu.hashCode());
             System.out.println("cloneStu---> hashCode = " + cloneStu.hashCode());
-            System.out.println("attachStu---> hashCode = " + attachStu.hashCode());
 
             System.out.println("\n***************************************************\n");
 

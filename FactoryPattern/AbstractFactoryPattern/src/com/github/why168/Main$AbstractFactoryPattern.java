@@ -1,5 +1,6 @@
 package com.github.why168;
 
+import com.github.why168.factory.AbsFactory;
 import com.github.why168.factory.BeiJingFactory;
 import com.github.why168.factory.ShangHaiFactory;
 import com.github.why168.factory.SiChuanFactory;

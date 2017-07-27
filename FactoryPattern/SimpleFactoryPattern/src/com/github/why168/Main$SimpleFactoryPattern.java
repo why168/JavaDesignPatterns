@@ -20,5 +20,7 @@ public class Main$SimpleFactoryPattern {
         restaurant = new FoodOrder("红烧牛肉");
         restaurant = new FoodOrder("黄瓜炒鸡蛋");
         restaurant = new FoodOrder("蒜苔回锅肉");
+
+
     }
 }

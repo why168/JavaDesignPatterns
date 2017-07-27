@@ -37,8 +37,13 @@ public class ShallStudent implements Cloneable {
     }
 
     @Override
-    public Object clone() throws CloneNotSupportedException {
-        return super.clone();
+    public ShallStudent clone() throws CloneNotSupportedException {
+        try {
+            return (ShallStudent) super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     @Override

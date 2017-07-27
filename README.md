@@ -48,10 +48,19 @@
 		2. 工厂方法模式（Factory Method Pattern）
 		3. 抽象工厂模式（Abstract Factory Pattern）
 	2. 单例模式（Singleton Pattern）
+		1. 懒汉式（不安全）
+		2. 饿汉式（自身线程安全）<推荐使用>
+		3. 登记式
 	3. 建造者模式（Builder Pattern）
-	4. 原型模式（Prototype Pattern）	
+		1. 复杂
+		2. 普通
+	4. 原型模式（Prototype Pattern）
+		1. 浅拷贝
+		2. 深拷贝	
 * 行为模式(7种)
 	1. 适配器模式（AdapterPattern）
+		1. 类适配器模式
+		2. 对象适配器模式
 	2. 装饰器模式（AdapterPattern）
 	3. 代理模式
 	4. 外观模式

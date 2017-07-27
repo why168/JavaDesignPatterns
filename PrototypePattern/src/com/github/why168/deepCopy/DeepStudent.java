@@ -49,10 +49,10 @@ public class DeepStudent implements Serializable, Cloneable {
     }
 
     @Override
-    public Object clone() {
+    public DeepStudent clone() {
         try {
             DeepStudent ds = (DeepStudent) super.clone();
-            ds.classRoom = (ClassRoom) this.classRoom.clone();
+            ds.classRoom = this.classRoom.clone();
             return ds;
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();

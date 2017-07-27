@@ -16,16 +16,16 @@ import com.github.why168.second.Product;
  * @since JDK1.8
  */
 
-public class Main {
+public class Main$BuilderPattern {
     public static void main(String[] args) {
         //TODO 第一种 简单
-        Student student =
-                new Student.Builder()
-                        .setId(1)
-                        .setAge(20)
-                        .setName("Edwin")
-                        .setClassroom("计算机一班")
-                        .build();
+        Student student = new Student
+                .Builder()
+                .setId(1)
+                .setAge(20)
+                .setName("Edwin")
+                .setClassroom("计算机一班")
+                .build();
         System.out.println("Student = [" + student + "]");
 
 

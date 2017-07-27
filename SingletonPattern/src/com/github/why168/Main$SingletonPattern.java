@@ -7,7 +7,7 @@ package com.github.why168;
  * @version 2016/12/16 16:03
  * @since JDK1.8
  */
-public class Main {
+public class Main$SingletonPattern {
 
     public static void main(String[] args) {
         // write your code here

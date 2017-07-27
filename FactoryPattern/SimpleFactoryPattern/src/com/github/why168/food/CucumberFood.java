@@ -1,4 +1,6 @@
-package com.github.why168;
+package com.github.why168.food;
+
+import com.github.why168.Food;
 
 /**
  * 黄瓜炒鸡蛋

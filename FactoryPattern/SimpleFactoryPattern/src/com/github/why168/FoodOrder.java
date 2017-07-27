@@ -1,5 +1,9 @@
 package com.github.why168;
 
+import com.github.why168.food.BeefFood;
+import com.github.why168.food.CucumberFood;
+import com.github.why168.food.PigFood;
+
 /**
  * 餐厅订单
  *
@@ -19,7 +23,7 @@ class FoodOrder {
         } else if ("蒜苔回锅肉".equals(name)) {
             cooking = new PigFood();
         } else {
-            return;
+            throw new RuntimeException("非法参数：" + name);
         }
         cooking.prepare();
         cooking.buy();

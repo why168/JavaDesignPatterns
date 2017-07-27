@@ -38,9 +38,9 @@ public class ClassRoom implements Serializable,Cloneable{
     }
 
     @Override
-    public Object clone() {
+    public ClassRoom clone() {
         try {
-            return super.clone();
+            return (ClassRoom)super.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
             return null;

@@ -15,10 +15,10 @@ import com.github.why168.object.Adapter;
  * @version 2016/12/22 15:46
  * @since JDK1.8
  */
-public class Main {
+public class Main$AdapterPattern {
     public static void main(String[] args) {
         object();
-        classp();
+//        classp();
     }
 
     /**

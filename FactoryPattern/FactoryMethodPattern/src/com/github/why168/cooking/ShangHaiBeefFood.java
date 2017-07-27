@@ -13,7 +13,7 @@ public class ShangHaiBeefFood extends Food {
 
     @Override
     public void prepare() {
-        super.setName("ShangHai 红烧牛肉");
+        super.setName("上海的红烧牛肉");
         System.out.println("prepare ---> "+super.getName());
     }
 }

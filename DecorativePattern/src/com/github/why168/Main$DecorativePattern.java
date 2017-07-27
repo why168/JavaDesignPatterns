@@ -12,7 +12,7 @@ package com.github.why168;
  * @version 2016/12/25 15:16
  * @since JDK1.8
  */
-public class Main {
+public class Main$DecorativePattern {
     public static void main(String[] args) {
         Project employe = new Employe();        //代码工人
         Project managerA = new ManagerA(employe); //项目经理

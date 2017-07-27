@@ -1,4 +1,6 @@
-package com.github.why168;
+package com.github.why168.food;
+
+import com.github.why168.Food;
 
 /**
  * 蒜苔回锅肉
@@ -11,6 +13,6 @@ public class PigFood extends Food {
     @Override
     public void prepare() {
         super.setName("蒜苔回锅肉");
-        System.out.println("prepare ---> "+super.getName());
+        System.out.println("prepare ---> " + super.getName());
     }
 }

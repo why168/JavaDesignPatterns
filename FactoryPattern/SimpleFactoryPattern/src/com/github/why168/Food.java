@@ -49,11 +49,11 @@ public abstract class Food {
         System.out.println(name + " done \n");
     }
 
-    void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 }

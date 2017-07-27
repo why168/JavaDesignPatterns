@@ -19,6 +19,14 @@ public abstract class Food {
      */
     private String name;
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     public abstract void prepare();
 
     /**
@@ -47,13 +55,5 @@ public abstract class Food {
      */
     public void done() {
         System.out.println(name + " done \n");
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
     }
 }
