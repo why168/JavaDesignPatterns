@@ -88,6 +88,6 @@
 ### 参考资料
 
 ### 效果图
-![JavaDesignPatterns-art](.png)
+![JavaDesignPatterns-art](https://raw.githubusercontent.com/why168/JavaDesignPatterns/master/art/boss.png)
 
 ### 示例代码
