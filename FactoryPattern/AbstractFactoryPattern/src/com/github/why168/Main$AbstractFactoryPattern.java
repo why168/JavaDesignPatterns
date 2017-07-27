@@ -11,7 +11,7 @@ import com.github.why168.factory.SiChuanFactory;
  * @version 2016/12/18 23:27
  * @since JDK1.8
  */
-public class Main {
+public class Main$AbstractFactoryPattern {
     public static void main(String[] args) {
         FoodOrder foodOrder;
         foodOrder = new FoodOrder(new BeiJingFactory(), "红烧牛肉");

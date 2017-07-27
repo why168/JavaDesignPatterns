@@ -44,6 +44,9 @@
 
 * 创造型模式(5种)
 	1. 工厂模式（Factory Pattern）
+		1. 简单工厂模式（Simple Factory Pattern）
+		2. 工厂方法模式（Factory Method Pattern）
+		3. 抽象工厂模式（Abstract Factory Pattern）
 	2. 单例模式（Singleton Pattern）
 	3. 建造者模式（Builder Pattern）
 	4. 原型模式（Prototype Pattern）	

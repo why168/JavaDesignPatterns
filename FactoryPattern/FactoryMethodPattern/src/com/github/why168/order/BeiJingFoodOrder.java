@@ -14,6 +14,7 @@ import com.github.why168.cooking.BeiJingPigFood;
  * @since JDK1.8
  */
 public class BeiJingFoodOrder extends FoodOrder {
+
     public BeiJingFoodOrder(String name) {
         super(name);
     }

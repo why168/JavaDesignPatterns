@@ -14,7 +14,7 @@ package com.github.why168;
  * @version 2016/12/18 01:35
  * @since JDK1.8
  */
-public class Main {
+public class Main$SimpleFactoryPattern {
     public static void main(String[] args) {
         FoodOrder restaurant = null;
         restaurant = new FoodOrder("红烧牛肉");
