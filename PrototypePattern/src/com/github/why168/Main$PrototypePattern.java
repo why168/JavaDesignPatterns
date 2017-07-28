@@ -79,15 +79,17 @@ public class Main$PrototypePattern {
 //            DeepStudent cloneStu = BeanUtil.cloneTo(stu);
 
             //克隆2
-            DeepStudent cloneStu = (DeepStudent) stu.clone();
+            DeepStudent cloneStu = stu.clone();
 
             System.out.println("stu---> hashCode = " + stu.hashCode());
             System.out.println("cloneStu---> hashCode = " + cloneStu.hashCode());
 
+            System.out.println("地址值是否相同 : " + (cloneStu == stu));
             System.out.println("\n***************************************************\n");
 
             System.out.println("stu---> hashCode,ClassRoom =  " + stu.getClassRoom().hashCode());
             System.out.println("cloneStu---> hashCode,ClassRoom =  " + cloneStu.getClassRoom().hashCode());
+            System.out.println("地址值是否相同 : " + (stu.getClassRoom() == cloneStu.getClassRoom()));
 
         } catch (Exception e) {
             e.printStackTrace();

@@ -61,7 +61,7 @@
 	1. 适配器模式（AdapterPattern）
 		1. 类适配器模式
 		2. 对象适配器模式
-	2. 装饰器模式（AdapterPattern）
+	2. 装饰模式（DecorativePattern）
 	3. 代理模式
 	4. 外观模式
 	5. 桥接模式
